@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+header{
+    width: 100vw;
+    background: #beb7b7;
+}
+main{
+    background-color: aqua;
+    width: 100%;
+    padding: 20px;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+article{
+    flex: 1;
+    padding: 2rem;
+    background-color: #beb7b7;
+}
+nav{
+    color: #beb7b7;
+    background-color:black;
+    height: 100%;
+    flex: 1 45;
+}
+button{
+    display: block;
+    margin: 20px auto;
+    background-color: greenyellow;
+    border: none;
+    padding: 20px;
+    width: 90%;
+    text-align: center;
+}
